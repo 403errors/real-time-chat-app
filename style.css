@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #3498db;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.input::placeholder {
+    color: #7f8c8d;
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.messageArea {
+    margin-top: 20px;
+    border: 1px solid #ecf0f1;
+    border-radius: 10px;
+    padding: 15px;
+    height: 200px;
+    overflow-y: auto;
+    background-color: #ecf0f1;
+}
+
+.message {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.username {
+    font-weight: bold;
+    color: #3498db;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "real-time-chat-app",
+  "version": "1.0.0",
+  "description": "real time chatting application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/403errors/real-time-chat-app.git"
+  },
+  "keywords": [
+    "real-time-chat-app",
+    "node-app",
+    "socket",
+    "fullstack-app"
+  ],
+  "author": "Sameer Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/403errors/real-time-chat-app/issues"
+  },
+  "homepage": "https://github.com/403errors/real-time-chat-app#readme",
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  }
+}
